@@ -1,0 +1,50 @@
+{
+  "name": "ten2nature",
+  "version": "0.0.0",
+  "description": "an app that pulls content from instagram with the hash #ten2nature",
+  "main": "app.js",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "keywords": [
+    "nature",
+    "instagram"
+  ],
+  "dependencies": {
+    "flatiron": "0.1.x",
+    "express": "3.1.0",
+    "async": "0.1.x",
+    "async-stacktrace": "git+https://github.com/CSNW/async-stacktrace.git#0.0.3-new-features.3",
+    "backbone": "1.0.x",
+    "chai": "1.7.x",
+    "cheerio": "0.12.4",
+    "commander": "0.0.x",
+    "csv": "~0.3.0",
+    "glass-templates": "git+https://github.com/prust/glass-templates.git#0.4.3",
+    "glob": "3.1.x",
+    "hash_file": "0.1.x",
+    "hbs": "2.1.x",
+    "lodash": "2.4.x",
+    "marked": "0.2.x",
+    "markdown-editor": "git+https://github.com/CSNW/markdown-editor.git#editor-imp",
+    "migrate": "git+https://github.com/schuttsm/node-migrate.git#script-improvements",
+    "moment": "2.4.x",
+    "mu2": "0.5.x",
+    "node-static": "0.6.x",
+    "node-uuid": "1.4.x",
+    "pg": "0.15.x",
+    "split": "0.2.6",
+    "sql": "git+https://github.com/CSNW/node-sql.git#update-col-prefixes",
+    "sql-bricks": "~0.5.2",
+    "sqlite3": "~2.1.9",
+    "through": "2.3.x",
+    "twitter-bootstrap": "~2.1",
+    "underscore": "~1.4.4",
+    "underscore.string": "2.3.x",
+    "winston": "0.7.x",
+    "wrench": "~1.5.4",
+    "logfmt": "~0.21.0"
+  },
+  "author": "ben racine",
+  "license": "MIT"
+}
